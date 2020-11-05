@@ -26,4 +26,6 @@ source ~/.bashrc
 ```
 
 ## example
+```
 gcc muxing.c -o muxing `pkg-config --cflags --libs libavdevice libavformat libavfilter libavcodec libswresample libswscale libavutil` -lx264
+```
