@@ -1,4 +1,10 @@
 # 2FFmpeg
+```
+Tutorials for:
+
+    Using the FFmpeg library in your own projects
+    Developing with the FFmpeg library
+```
 
 ## build ffmpeg
 ```
@@ -29,3 +35,6 @@ source ~/.bashrc
 ```
 gcc muxing.c -o muxing `pkg-config --cflags --libs libavdevice libavformat libavfilter libavcodec libswresample libswscale libavutil` -lx264
 ```
+
+## reference
+https://wiki.multimedia.cx/index.php/Category:FFmpeg_Tutorials
