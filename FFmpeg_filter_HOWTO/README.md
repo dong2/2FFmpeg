@@ -2,7 +2,8 @@
 
 https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO
 
-``` _______              ______________
+```
+ _______              ______________
 |       |            |              |
 | input |  demuxer   | encoded data |   decoder
 | file  | ---------> | packets      | -----+
@@ -25,4 +26,5 @@ https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO
 | output | <-------- | encoded data | <----+
 | file   |   muxer   | packets      |   encoder
 |________|           |______________|
+
 ```
