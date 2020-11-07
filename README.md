@@ -26,8 +26,6 @@ source ~/.bashrc
 
 2. x264
 ./configure --prefix=/home/user/ffmpeg-4.1/bin --enable-libx264 --enable-gpl --extra-cflags=-I/home/user/ffmpeg-4.1/bin/include --extra-cxxflags=-I/home/user/ffmpeg-4.1/bin/include --extra-ldflags=-L/home/user/ffmpeg-4.1/bin/lib
-
-*** Change user to yourself ***
 ```
 
 ## example
