@@ -1,9 +1,8 @@
 # 2FFmpeg
 ```
 Tutorials for:
-
-    Using the FFmpeg library in your own projects
-    Developing with the FFmpeg library
+  Using the FFmpeg library in your own projects
+  Developing with the FFmpeg library
 ```
 
 ## build ffmpeg
