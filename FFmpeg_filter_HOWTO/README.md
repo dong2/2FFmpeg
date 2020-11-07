@@ -1,8 +1,5 @@
 ## FFmpeg_filter_HOWTO
 
-https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO  
-https://trac.ffmpeg.org/wiki/FancyFilteringExamples
-
 ```
  _______              ______________
 |       |            |              |
@@ -29,3 +26,8 @@ https://trac.ffmpeg.org/wiki/FancyFilteringExamples
 |________|           |______________|
 
 ```
+
+https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO  
+https://wiki.multimedia.cx/index.php?title=Libavfilter  
+https://trac.ffmpeg.org/wiki/FancyFilteringExamples  
+https://trac.ffmpeg.org/wiki/FilteringGuide  
