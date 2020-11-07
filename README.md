@@ -21,10 +21,10 @@ echo "export PKG_CONFIG_PATH=/home/user/ffmpeg-4.1/bin/lib/pkgconfig:$PKG_CONFIG
 
 source ~/.bashrc
 
-## ffmpeg
+## x264
 ./configure --prefix=/home/user/ffmpeg-4.1/bin --enable-shared --enable-static --enable-pic
 
-## x264
+## ffmpeg
 ./configure --prefix=/home/user/ffmpeg-4.1/bin --enable-libx264 --enable-gpl --extra-cflags=-I/home/user/ffmpeg-4.1/bin/include --extra-cxxflags=-I/home/user/ffmpeg-4.1/bin/include --extra-ldflags=-L/home/user/ffmpeg-4.1/bin/lib
 ```
 
