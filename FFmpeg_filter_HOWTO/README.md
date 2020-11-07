@@ -29,5 +29,5 @@
 
 https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO  
 https://wiki.multimedia.cx/index.php?title=Libavfilter  
-https://trac.ffmpeg.org/wiki/FancyFilteringExamples  
 https://trac.ffmpeg.org/wiki/FilteringGuide  
+https://trac.ffmpeg.org/wiki/FancyFilteringExamples  
