@@ -1,6 +1,6 @@
 ## FFmpeg codec HOWTO
 ```
-5 simple examples ffmpeg-4.1/libavcodec/
+5 simplest examples ffmpeg-4.1/libavcodec/
 v308enc.c
 v308dec.c
 v408enc.c
