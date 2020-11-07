@@ -1,7 +1,9 @@
 ## FFmpeg_filter_HOWTO
 
+```
 ## ffmpeg command example
 ./ffmpeg -i input.mp4 -vf fff output.mp4
+```
 
 ```
  _______              ______________
