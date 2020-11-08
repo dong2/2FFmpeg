@@ -1,6 +1,6 @@
 ## FFmpeg_muxer_HOWTO
 
-### 1. simplest example in ffmpeg/libformat
+### 1. simplest example in ffmpeg/libavformat
 dauddec.c  
 daudenc.c
 
