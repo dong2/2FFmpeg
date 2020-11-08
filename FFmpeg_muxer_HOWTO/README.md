@@ -5,4 +5,5 @@
 > daudenc.c
 
 ### 2. reference
-https://wiki.multimedia.cx/index.php/FFmpeg_muxer_HOWTO
+https://wiki.multimedia.cx/index.php/FFmpeg_demuxer_HOWTO  
+https://blog.csdn.net/dancing_night/article/details/46332461

@@ -1,20 +1,16 @@
 ## FFmpeg codec HOWTO
 
 ### 1. five groups of simple examples ffmpeg-4.1/libavcodec/  
-> v308enc.c  
-> v308dec.c  
-
->v408enc.c  
->v408dec.c  
-
-> v410enc.c  
-> v410dec.c  
-
-> y41penc.c  
-> y41pdec.c  
-
-> yuv4enc.c  
-> yuv4dec.c  
+v308enc.c  
+v308dec.c  
+v408enc.c  
+v408dec.c  
+v410enc.c  
+v410dec.c  
+y41penc.c  
+y41pdec.c  
+yuv4enc.c  
+yuv4dec.c  
 
 ### 2. encode
 ffmpeg-4.1/doc/examples/encode_video.c  
