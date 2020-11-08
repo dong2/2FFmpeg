@@ -1,4 +1,4 @@
-## FFmpeg_demuxer_HOWTO
+## FFmpeg_muxer_HOWTO
 
 ### 1. simplest example in ffmpeg/libformat
 dauddec.c  
