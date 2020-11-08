@@ -24,7 +24,7 @@ sudo make install
 
 ### ffmpeg
 ./configure --prefix=/usr/local/ffmpeg --enable-libx264 --enable-gpl  
-/* with the pkg-config, there is no need to add --extra-cflags=-I/usr/local/ffmpeg/include --extra-cxxflags=-I/usr/local/ffmpeg/include --extra-ldflags=-L/usr/local/ffmpeg/lib */  
+/* with the pkg-config, there is no need to add `--extra-cflags=-I/usr/local/ffmpeg/include --extra-cxxflags=-I/usr/local/ffmpeg/include --extra-ldflags=-L/usr/local/ffmpeg/lib` */  
 make  
 sudo make install  
 
