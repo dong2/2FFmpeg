@@ -9,6 +9,7 @@ af_acopy.c
 ./ffmpeg -i input.mp4 -vf fff output.mp4
 
 ### 3. seq
+```
  _______              ______________
 |       |            |              |
 | input |  demuxer   | encoded data |   decoder
@@ -32,7 +33,7 @@ af_acopy.c
 | output | <-------- | encoded data | <----+
 | file   |   muxer   | packets      |   encoder
 |________|           |______________|
-
+```
 
 ### 4. reference
 https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO  
