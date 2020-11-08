@@ -1,14 +1,14 @@
 ## FFmpeg_filter_HOWTO
 
-> * simplest example in ffmpeg/libfilter
-vf_null.c
-vf_copy.c
-vf_acopy.c
+> * simplest example in ffmpeg/libfilter  
+vf_null.c  
+vf_copy.c  
+af_acopy.c 
 
-> * fliter fff example
+> * fliter fff example  
 ./ffmpeg -i input.mp4 -vf fff output.mp4
 
-
+> * seq
 ```
  _______              ______________
 |       |            |              |
@@ -36,6 +36,7 @@ vf_acopy.c
 
 ```
 
+> * reference
 https://wiki.multimedia.cx/index.php/FFmpeg_filter_HOWTO  
 https://wiki.multimedia.cx/index.php?title=Libavfilter  
 https://trac.ffmpeg.org/wiki/FilteringGuide  
