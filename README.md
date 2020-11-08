@@ -8,14 +8,18 @@ Tutorials for:
 ## 1. build ffmpeg
 ./configure --prefix=/usr/local/ffmpeg --disable-x86asm  
 make  
-make install
+sudo make install
 
 ## 2. build ffmpeg + x264
 ### x264
 ./configure --prefix=/usr/local/ffmpeg --enable-shared --enable-static --enable-pic
+make  
+sudo make install
 
 ### ffmpeg
 ./configure --prefix=/usr/local/ffmpeg --enable-libx264 --enable-gpl --extra-cflags=-I/usr/local/ffmpeg/include --extra-cxxflags=-I/usr/local/ffmpeg/include --extra-ldflags=-L/usr/local/ffmpeg/lib
+make  
+sudo make install
 
 ## 3. environment variable
 echo "export LD_LIBRARY_PATH=/usr/local/ffmpeg/lib:$LD_LIBRARY_PATH">> ~/.bashrc  
