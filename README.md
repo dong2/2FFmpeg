@@ -29,7 +29,7 @@ make
 sudo make install  
 
 ## 3. example
-`gcc muxing.c -o muxing `pkg-config --cflags --libs libavdevice libavformat libavfilter libavcodec libswresample libswscale libavutil` -lx264`
+```gcc muxing.c -o muxing `pkg-config --cflags --libs libavdevice libavformat libavfilter libavcodec libswresample libswscale libavutil` -lx264```
 
 
 ## 4. reference
