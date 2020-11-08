@@ -18,12 +18,12 @@ echo "export PKG_CONFIG_PATH=/usr/local/ffmpeg/lib/pkgconfig:$PKG_CONFIG_PATH">>
 source ~/.bashrc  
 
 ### x264
-./configure --prefix=/usr/local/ffmpeg --enable-shared --enable-static --enable-pic
+./configure --prefix=/usr/local/ffmpeg --enable-shared --enable-static --enable-pic  
 make  
 sudo make install
 
 ### ffmpeg
-./configure --prefix=/usr/local/ffmpeg --enable-libx264 --enable-gpl (--extra-cflags=-I/usr/local/ffmpeg/include --extra-cxxflags=-I/usr/local/ffmpeg/include --extra-ldflags=-L/usr/local/ffmpeg/lib)
+./configure --prefix=/usr/local/ffmpeg --enable-libx264 --enable-gpl (--extra-cflags=-I/usr/local/ffmpeg/include --extra-cxxflags=-I/usr/local/ffmpeg/include --extra-ldflags=-L/usr/local/ffmpeg/lib)  
 make  
 sudo make install  
 /* do not need extra-cflags */
