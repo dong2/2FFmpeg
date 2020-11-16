@@ -5,4 +5,4 @@
 ./inbuf_muxing
 
 ### 
-It's not finished yet !
+参考的https://github.com/slmax2017/ffmpeg_mp4_h264_mux
