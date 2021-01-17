@@ -36,3 +36,4 @@ sudo make install
 https://wiki.multimedia.cx/index.php/Category:FFmpeg_Tutorials  
 https://github.com/leandromoreira/ffmpeg-libav-tutorial  
 https://github.com/sorrowhill/FFmpegTutorial  
+http://dranger.com/ffmpeg/  
